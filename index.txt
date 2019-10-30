@@ -1,0 +1,82 @@
+<doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+		<title>logo</title>
+	<style>
+	body {
+	  background:azure;
+	  font-size:15px;
+	}
+	div {
+	    width: 200px;
+	    height: 200px;
+	    background-color: coral;
+	    position:absolute !important;
+	    top:calc(50% - 100px);
+	    left:calc(50% - 100px);
+	    -webkit-animation-name: kotak-ke-lingkaran; 
+	    -webkit-animation-duration:  5s;
+	    -webkit-animation-delay: 1s;
+	    -webkit-animation-iteration-count: infinite;
+	    -webkit-animation-timing-function: linear;
+	    -webkit-animation-direction: alternate;
+	}
+ 
+	@-webkit-keyframes kotak-ke-lingkaran {
+	  0%  {
+		border-radius:0 0 0 0;
+		background:coral;
+		transform:rotate(0deg);
+	  }
+	  25%  {
+		border-radius:50% 0 0 0;
+		background:darksalmon;
+		transform:rotate(45deg);
+	  }
+	  50%  {
+		border-radius:50% 50% 0 0;
+		background:indianred;
+		transform:rotate(90deg);
+	  }
+	  75%  { 
+		border-radius:50% 50% 50% 0;
+		background:lightcoral;
+		transform:rotate(135deg);
+	  }
+	  100% {  
+		border-radius:50%;
+		background:darksalmon;
+		transform:rotate(180deg);
+	  }
+	}
+	</style>
+  </head>
+<body>
+  <div></div>
+ </body>
+</html>
+
+<html>
+ <head>
+  <title>link</title>
+   <style>
+     button.button{
+      padding: 400px 400px 400px 400px;
+      background:none;
+      border: 0;
+      cursor: pointer;
+      font-size: 40px;
+      }
+      button.button:hover {
+      opacity: .8;
+      }
+   </style>
+ </head>
+ <body>
+  <button class="button">
+   <a href="https://www.facebook.com/obi.s.joe">Play!</a>
+  </button>
+ </body>
+</html>
+
